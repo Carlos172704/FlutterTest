@@ -1,0 +1,46 @@
+name: fluttertest
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  dice_icons: ^0.1.7
+  permission_handler: ^10.0.0
+  flutter:
+    sdk: flutter
+  flutter_blue_plus:
+    path: C:/Users/Carlos/Documents/bluetooth/flutter_blue_plus
+  get: ^4.6.5
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.9.2"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: fonts/CustomIcons.ttf
+    - family: MedievalSharp
+      fonts:
+        - asset: fonts/MedievalSharp-Regular.ttf
+    - family: Cinzel
+      fonts:
+        - asset: fonts/Cinzel-VariableFont_wght.ttf
+    - family: RobotoSlab
+      fonts:
+        - asset: fonts/RobotoSlab-VariableFont_wght.ttf
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
